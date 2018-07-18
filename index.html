@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en" >
+
+<head>
+  <meta charset="UTF-8">
+  <title>Survey Form (FCC)</title>
+  
+  
+  
+      <link rel="stylesheet" href="css/style.css">
+
+  
+</head>
+
+<body>
+
+  <!DOCTYPE html>
+<html>
+    
+<head>
+    <meta charset="utf-8">
+    <meta name = "description" content = "Feedback Survey">
+    <meta name = "keywords" content = "Web, Design, Feedback, Survey">
+    <meta name = "viewport" content = "width=device-width, initial-scale=1.0">
+    <title>User Feedback</title>
+    <link rel="stylesheet" type="text/css" href="styles.css">
+    <link href="https://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet">
+    <link rel = "icon" type = "img/png" href = "https://imgur.com/j8z9MXL.png">
+  <script src="https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js"></script>
+    <script src = "main.js"></script>
+</head>
+
+<body>
+    <header id = "header">
+        <div id = "header-container">
+            <h1 id = "title">User Feedback</h1>
+        </div>
+    </header>
+    
+    <main id = "main">
+        <form id = "survey-form">
+            <p id = "description">
+            Thank you for using our services! It would be an enourmous help to us if you could fill out this short survey to tell us how your experience was.    
+        </p>
+            <label id = "name-label" for = "name">Name: </label>
+            <input type = "text" id = "name" name = "name" placeholder = "Your name" required><br><br>
+            <label id = "email-label" for = "email">Email Address: </label>
+            <input type = "email" name = "email" placeholder="You@Website.com" id = "email" required><br><br>
+            <label id = "number-label" for = "age">Age: </label>
+            <input type = "number" name = "age" id = "number" value = "age" placeholder="Your age" min = "16" max = "99" required>
+            <br><br>
+            <input type = "radio" name = "gender" value = "Male" checked>Male<br>
+            <input type = "radio" name = "gender" value = "Female">Female<br>
+            <input type = "radio" name = "gender" value = "Other">Other<br><br>
+            <label for = "service">Which of our services did you use?</label><br>
+            <select name = "service" id = "dropdown">
+                <option value = "" disabled selected>Select option...</option>
+                <option value = "template">Web Template</option>
+                <option value = "website">Full Website</option>
+                <option value = "javascript">JavaScript</option>
+            </select><br><br>
+            Which of our services are you likely to use in the future?<br>
+            
+            <label for = "templatecheck">Website Templates</label>
+            <input type = "checkbox" name = "future" value = "templatecheck"><br>
+            <label for = "websitecheck">Full Website</label>
+            <input type = "checkbox" name = "future" value = "templatecheck"><br>
+            <label for = "javascriptcheck">JavaScript</label>
+            <input type = "checkbox" name= "future" value = "javascriptcheck"><br><br>
+            Comments: <br>
+            <textarea name = "comments" placeholder = "Do you have any comments for us to help us improve our services?" rows = "10" cols = "40"></textarea>
+            <br><br>
+            <input type = "submit" id = "submit" value = "Submit">
+            <br><br>
+            Thanks for your feedback. We appreciate it!
+            <br><br>
+            <i class = "copyright">&copy; <a href = "robfairclough.github.io" target = "_blank">Rob Fairclough 2018</a></i>
+        </form>
+    </main>
+</body>
+    
+</html>
+  
+  
+
+</body>
+
+</html>
